@@ -1,0 +1,142 @@
+        
+       head {
+        box-sizing: border-box;
+       }
+       
+/* ini Style headernya */
+   header {
+       background-image: url(P_Stabilizer.png);
+       background-repeat:no-repeat;
+       background-position: center;
+       background-size: cover;
+       padding: 70px;
+       width: auto;
+   }
+   body {
+       font-family: Arial, Helvetica, sans-serif;
+   }
+nav {
+background-color:#EB5436; 
+height:50px; 
+line-height:50px; 
+position:relative;
+width:auto;
+margin-top:80px;
+ }
+
+nav ul {
+list-style:none;
+   }
+nav ul li a {
+float:left; 
+width:170px; 
+display:block; 
+text-align:center; 
+color:#FFF; 
+text-decoration:none; 
+text-transform:uppercase;
+}
+
+nav ul li a:hover {
+background-color:#666; 
+display:block;
+             }
+
+nav ul li:hover ul {
+display:block;
+}
+nav ul ul {
+display:none; 
+list-style:none; 
+position:absolute; 
+background-color:#900;
+left:300px; 
+top:50px; 
+width:190px;
+ }
+
+nav ul ul li a {
+float:none; 
+display:block; 
+padding-left:30px; 
+text-align:left; 
+width:160px;
+}
+
+nav ul ul li a:hover {
+color:#990;
+   }
+  
+   
+   nav a
+   {
+       color: white;
+   }
+   table {
+       width: 100%;
+   
+   }
+   a:link{
+       color :black
+   }
+   a:visited {
+       color: black;
+   }
+   td:hover {background-color:#3C7F72 ;}   
+   article {
+       float: left;
+       padding: 20px;
+       width: auto;
+       background-color: #f1f1f1;
+       height: auto;
+  
+
+       /* hanya untuk contoh saja */
+   }
+  .articlevip article {
+    width: 1250px;
+  }
+
+   
+   td {
+       word-wrap: break-word;
+       float: left;
+       width: 376px;
+    
+   }
+
+   td a:link {
+    text-decoration: none;
+   }
+   img {
+    width: 100%;
+   }
+   
+   /* Clear floats after the columns */
+   section:after {
+       content: "";
+       display: table;
+       clear: both;
+   }
+
+   /* Style the footer */
+   footer {
+       background-color: black;
+       padding: 10px;
+       text-align: center;
+       color: white;
+       position: static;
+       left:0;
+       bottom: 0;
+       width:98.5%
+   }
+
+   /* Responsive layout - buat 2 kolom/kotak */
+   @media (max-width: 600px) {
+
+       nav,
+       article {
+           width: auto;
+           height: auto;
+       }
+   }
